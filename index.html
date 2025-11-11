@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Sabbir | portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon/favican_3.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Sabbir</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hallo Sabbir<span class="highlight"> </span></h1>
+                <p class="tagline">I Am <span id="typed-text"></span></p>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/profile.jpg" alt="Sabbir" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content reveal">
+                <div class="about-image">
+                    <img src="images/profile_2.jpg" alt="Sabbir">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>
+                       I am Sabbir Hossain, a 5th semester student of Tangail Polytechnic Mechanical Technology. I want to contribute to the mechanical sector of Bangladesh in the future.
+                    </p>
+                    <p>
+                       
+                    <h4> Aim: <span class="accent-text">Becoming a successful and good mechanical engineer</span></h4>
+                    <a href="cv/cv.pdf" download>CV Download</a>
+                </div>
+            </div>
+             <div class="education-info reveal">
+                <h3>Education Qualifications</h3>
+                <ul>
+                    <li><strong>SSC (Technical):</strong> GPA 4.71</li>
+                    <li><strong>Present</strong> Mechanical Technology, 5th Semester, Tangail Polytechnic Institute</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS / LEARNING ==================== -->
+    <section id="learning" class="learning-section">
+        <div class="container">
+            <div class="learning-content reveal">
+                <i class="fas fa-brain learning-icon"></i>
+                <h3>Self Learning</h3>
+                <p>I learned through lab classes at the institute and by watching YouTube videos.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ==================== LANGUAGE SKILLS ==================== -->
+    <section id="languages" class="languages-section">
+        <div class="container">
+            <h2 class="section-title">language</h2>
+            <div class="languages-grid">
+                <div class="language-item reveal">
+                    <h3>Bangla</h3>
+                    <p>(Nativ)</p>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 100%;"></div></div>
+                </div>
+                <div class="language-item reveal">
+                    <h3>English</h3>
+                    <p>(Good)</p>
+                    <div class="progress-bar-container"><div class="progress-bar" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title"> Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form-container reveal">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <!-- অবশ্যই web3forms.com থেকে আপনার নিজের Access Key সংগ্রহ করে উপরের value তে বসান -->
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Messege" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Messege</button>
+                    </form>
+                </div>
+                <div class="contact-info reveal">
+                    <h3>Others Social Media</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:ssd206232@gmail.com">mdsabbir865118@gamil.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:01782019073">01618174779</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tangail, Dhaka , Bangladesh</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/md.sabbir.188816" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> All rights reserved - Sabbir</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript for Typewriter and other interactions -->
+    <script>
+        // Typewriter Effect
+        const typedTextSpan = document.getElementById("typed-text");
+        const textArray = ["Mechanical Technology Student", "Future Mechanical Engineer", "Engineer"];
+        const typingDelay = 120;
+        const erasingDelay = 80;
+        const newTextDelay = 1800; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay + 1000);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() { 
+            if (textArray.length) setTimeout(type, newTextDelay + 200);
+        });
+
+        // Hamburger Menu for Mobile
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-times');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    hamburger.querySelector('i').classList.add('fa-bars');
+                    hamburger.querySelector('i').classList.remove('fa-times');
+                }
+                // Active link highlighting
+                document.querySelectorAll('.nav-links a').forEach(navLink => navLink.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+        
+        // Sticky Navigation & Scroll to Top Button
+        const header = document.querySelector('header');
+        const scrollToTopBtn = document.querySelector('.scroll-to-top');
+
+        window.addEventListener('scroll', function() {
+            header.classList.toggle('sticky', window.scrollY > 0);
+             if (window.scrollY > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+
+            // Active link highlighting on scroll
+            let currentSection = "";
+            const sections = document.querySelectorAll("section");
+            const navHeight = header.offsetHeight;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - navHeight - 50; // 50px offset
+                if (pageYOffset >= sectionTop) {
+                    currentSection = section.getAttribute("id");
+                }
+            });
+            
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === currentSection) {
+                    link.classList.add('active');
+                }
+            });
+             // If at top, set Home to active
+            if (window.pageYOffset < sections[0].offsetTop - navHeight - 50) {
+                 document.querySelectorAll('.nav-links a').forEach(link => link.classList.remove('active'));
+                 document.querySelector('.nav-links a[href="#hero"]').classList.add('active');
+            }
+
+        });
+
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Scroll Reveal Animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Optional: unobserve after revealing to save resources
+                    // revealObserver.unobserve(entry.target); 
+                } else {
+                    // Optional: remove class if you want animation to repeat on scroll up & down
+                    // entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        });
+
+        revealElements.forEach(el => {
+            revealObserver.observe(el);
+        });
+
+        // Contact Form Submission (using Web3Forms for example)
+        // Go to https://web3forms.com/ and get your free access key.
+        // Then replace 'YOUR_ACCESS_KEY_HERE' in the HTML form.
+        const form = document.querySelector('.contact-form');
+        form.addEventListener('submit', function(e) {
+            // You can add custom JS handling here if needed, e.g., showing a success message.
+            // For Web3Forms, it will redirect to a success page or show a JSON response.
+            // Basic example:
+            // e.preventDefault(); // Uncomment if you want to handle submission fully with JS
+            // alert('বার্তা পাঠানোর জন্য ধন্যবাদ!'); // Simple alert
+        });
+
+    </script>
+</body>
+</html>
